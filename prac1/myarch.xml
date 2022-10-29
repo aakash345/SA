@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<instance:xArch xmlns:instance="http://www.ics.uci.edu/pub/arch/xArch/instance.xsd" xmlns:hints3="http://www.ics.uci.edu/pub/arch/xArch/hints3.xsd" xmlns:types="http://www.ics.uci.edu/pub/arch/xArch/types.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ics.uci.edu/pub/arch/xArch/hints3.xsd http://www.isr.uci.edu/projects/xarchuci/ext/hints3.xsd http://www.ics.uci.edu/pub/arch/xArch/instance.xsd http://www.isr.uci.edu/projects/xarchuci/core/instance.xsd http://www.ics.uci.edu/pub/arch/xArch/statecharts.xsd http://www.isr.uci.edu/projects/xarchuci/ext/statecharts.xsd http://www.ics.uci.edu/pub/arch/xArch/activitydiagrams.xsd http://www.isr.uci.edu/projects/xarchuci/ext/activitydiagrams.xsd http://www.ics.uci.edu/pub/arch/xArch/types.xsd http://www.isr.uci.edu/projects/xarchuci/ext/types.xsd http://www.ics.uci.edu/pub/arch/xArch/changesets.xsd http://www.isr.uci.edu/projects/xarchuci/ext/changesets.xsd">
+            
+    
+    <types:archStructure types:id="archStructureffa8006e-1f2cdab1-e7d5fd1c-60620002" xsi:type="types:ArchStructure">
+                        
+        
+        <types:description xsi:type="instance:Description">archPLA</types:description>
+                        
+        
+        <types:component types:id="componentffa8006e-1f2ecc48-1fe33444-60620006" xsi:type="types:Component">
+                                    
+            
+            <types:description xsi:type="instance:Description">Order</types:description>
+                                    
+            
+            <types:interface types:id="interfaceffa8006e-1f312e8d-331a3579-606200b5" xsi:type="types:Interface">
+                                                
+                
+                <types:description xsi:type="instance:Description">[New Interface]</types:description>
+                                                
+                
+                <types:direction xsi:type="instance:Direction">out</types:direction>
+                                            
+            
+            </types:interface>
+                                    
+            
+            <types:interface types:id="interfaceffa8006e-1f535ab4-f36e1f8f-606201b7" xsi:type="types:Interface">
+                                                
+                
+                <types:description xsi:type="instance:Description">[New Interface]</types:description>
+                                                
+                
+                <types:direction xsi:type="instance:Direction">in</types:direction>
+                                            
+            
+            </types:interface>
+                                
+        
+        </types:component>
+                        
+        
+        <types:component types:id="componentffa8006e-1f2f12ba-f16250f4-60620044" xsi:type="types:Component">
+                                    
+            
+            <types:description xsi:type="instance:Description">Item code</types:description>
+                                    
+            
+            <types:interface types:id="interfaceffa8006e-1f5a0e2d-f024753c-6062032e" xsi:type="types:Interface">
+                                                
+                
+                <types:description xsi:type="instance:Description">[New Interface]</types:description>
+                                                
+                
+                <types:direction xsi:type="instance:Direction">in</types:direction>
+                                            
+            
+            </types:interface>
+                                
+        
+        </types:component>
+                        
+        
+        <types:component types:id="componentffa8006e-1f522979-302af18c-60620140" xsi:type="types:Component">
+                                    
+            
+            <types:description xsi:type="instance:Description">Payment</types:description>
+                                    
+            
+            <types:interface types:id="interfaceffa8006e-1f5327c1-52f1a6b6-60620198" xsi:type="types:Interface">
+                                                
+                
+                <types:description xsi:type="instance:Description">[New Interface]</types:description>
+                                                
+                
+                <types:direction xsi:type="instance:Direction">none</types:direction>
+                                            
+            
+            </types:interface>
+                                
+        
+        </types:component>
+                        
+        
+        <types:component types:id="componentffa8006e-1f523682-1190b9f9-60620149" xsi:type="types:Component">
+            <types:description xsi:type="instance:Description">Customer details</types:description>
+            <types:interface types:id="interfaceffa8006e-247cdd80-41e14b19-45f001f4" xsi:type="types:Interface">
+                <types:description xsi:type="instance:Description">[New Interface]</types:description>
+                <types:direction xsi:type="instance:Direction">none</types:direction>
+            </types:interface>
+            <types:interface types:id="interfaceffa8006e-247cf70b-74940258-45f001fa" xsi:type="types:Interface">
+                <types:description xsi:type="instance:Description">[New Interface]</types:description>
+                <types:direction xsi:type="instance:Direction">none</types:direction>
+            </types:interface>
+                                    
+            
+                    
+        
+        </types:component>
+                        
+        
+        <types:component types:id="componentffa8006e-1f524240-7d1f0c4a-60620152" xsi:type="types:Component">
+                                    
+            
+            <types:description xsi:type="instance:Description">Account details</types:description>
+                                
+        
+        </types:component>
+                        
+        
+        <types:component types:id="componentffa8006e-1f5932ba-4ea3b68b-60620278" xsi:type="types:Component">
+                                    
+            
+            <types:description xsi:type="instance:Description">Product</types:description>
+                                
+        
+        </types:component>
+                        
+        
+        <types:component types:id="componentffa8006e-1f598386-c7c3830e-6062029c" xsi:type="types:Component">
+                                    
+            
+            <types:description xsi:type="instance:Description">Customer</types:description>
+                                
+        
+        </types:component>
+                        
+        
+        <types:component types:id="componentffa8006e-1f59b133-51d8ac89-606202bf" xsi:type="types:Component">
+                                    
+            
+            <types:description xsi:type="instance:Description">Account</types:description>
+                                
+        
+        </types:component>
+                        
+        
+        <types:link types:id="linkffa8006e-1f31998d-245bf3ea-606200df" xsi:type="types:Link">
+                                    
+            
+            <types:description xsi:type="instance:Description">[New Link]</types:description>
+                                    
+            
+            <types:point xsi:type="instance:Point">
+                                                
+                
+                <instance:anchorOnInterface xlink:href="#interfaceffa8006e-1f312e8d-331a3579-606200b5" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                            
+            
+            </types:point>
+                                    
+            
+            <types:point xsi:type="instance:Point"/>
+                                
+        
+        </types:link>
+                    
+    
+    </types:archStructure>
+            
+    
+    <hints3:renderingHints3 xsi:type="hints3:RenderingHints3">
+                        
+        
+        <hints3:hintedElement hints3:maintainer="edu.uci.isr.archstudio4.comp.archipelago" hints3:version="4.0.0" xsi:type="hints3:HintBundle"/>
+                        
+        
+        <hints3:hintedElement hints3:maintainer="edu.uci.isr.archstudio4.comp.archipelago" hints3:version="4.1.0" xsi:type="hints3:HintBundle">
+                                    
+            
+            <hints3:hintedElement xsi:type="hints3:HintedElement">
+                <hints3:target xlink:href="#archStructureffa8006e-1f2cdab1-e7d5fd1c-60620002" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#componentffa8006e-1f2ecc48-1fe33444-60620006" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10125,10175,100,100" hints3:type="org.eclipse.draw2d.geometry.Rectangle" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="197,203,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#componentffa8006e-1f2f12ba-f16250f4-60620044" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10500,10050,100,100" hints3:type="org.eclipse.draw2d.geometry.Rectangle" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="255,254,191" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#interfaceffa8006e-1f312e8d-331a3579-606200b5" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10225,10226" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="{EDGE,{1.0,0.51}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="255,255,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#interfaceffa8006e-1f31506d-a1f7b0b7-606200d5" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10500,10100" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="{EDGE,{0.0,0.5}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="255,255,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#linkffa8006e-1f31998d-245bf3ea-606200df" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/midpoints" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="{}" hints3:type="{[Lorg.eclipse.draw2d.geometry.Point;,0}" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/endpoint1" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10230,10224" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/endpoint2" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10500,10100" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/endpoint1-StuckInfo" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="{EDGE_FROM_CENTER}" hints3:type="{[Ljava.lang.Object;,1,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode}" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/endpoint2-StuckInfo" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="{EDGE_FROM_CENTER}" hints3:type="{[Ljava.lang.Object;,1,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode}" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#componentffa8006e-1f522979-302af18c-60620140" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10125,10375,100,100" hints3:type="org.eclipse.draw2d.geometry.Rectangle" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="255,254,191" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#componentffa8006e-1f523682-1190b9f9-60620149" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10500,10225,100,100" hints3:type="org.eclipse.draw2d.geometry.Rectangle" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="197,203,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#componentffa8006e-1f524240-7d1f0c4a-60620152" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10500,10400,100,100" hints3:type="org.eclipse.draw2d.geometry.Rectangle" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="197,203,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#interfaceffa8006e-1f5327c1-52f1a6b6-60620198" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10175,10375" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="{EDGE,{0.5,0.0}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="255,255,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#interfaceffa8006e-1f535ab4-f36e1f8f-606201b7" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10175,10275" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="{EDGE,{0.5,1.0}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="255,255,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#componentffa8006e-1f5932ba-4ea3b68b-60620278" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10825,10050,100,100" hints3:type="org.eclipse.draw2d.geometry.Rectangle" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="197,203,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#componentffa8006e-1f598386-c7c3830e-6062029c" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10825,10275,100,100" hints3:type="org.eclipse.draw2d.geometry.Rectangle" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="197,203,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#componentffa8006e-1f59b133-51d8ac89-606202bf" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10825,10475,100,100" hints3:type="org.eclipse.draw2d.geometry.Rectangle" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="197,203,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                                                            
+                    
+                    <hints3:target xlink:href="#interfaceffa8006e-1f5a0e2d-f024753c-6062032e" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="10500,10100" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="{EDGE,{0.0,0.5}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                            
+                    
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                                                                        
+                        
+                        <hints3:value hints3:data="255,255,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                                                                    
+                    
+                    </hints3:property>
+                                                        
+                
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                    <hints3:target xlink:href="#interfaceffa8006e-247cdd80-41e14b19-45f001f4" xsi:type="instance:XMLLink" xlink:type="simple"/>
+                    <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
+                        <hints3:value hints3:data="10500,10275" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                    </hints3:property>
+                    <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
+                        <hints3:value hints3:data="{EDGE,{0.0,0.5}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
+                    </hints3:property>
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                        <hints3:value hints3:data="255,255,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                    </hints3:property>
+                </hints3:hintedElement>
+                <hints3:hintedElement xsi:type="hints3:HintedElement">
+                    <hints3:target xlink:href="#interfaceffa8006e-247cf70b-74940258-45f001fa" xsi:type="instance:XMLLink" xlink:type="simple"/>
+                    <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
+                        <hints3:value hints3:data="10600,10275" hints3:type="org.eclipse.draw2d.geometry.Point" xsi:type="hints3:PropertyValue"/>
+                    </hints3:property>
+                    <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
+                        <hints3:value hints3:data="{EDGE,{1.0,0.5}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
+                    </hints3:property>
+                    <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
+                        <hints3:value hints3:data="255,255,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
+                    </hints3:property>
+                </hints3:hintedElement>
+                                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                            
+            
+            </hints3:hintedElement>
+                                
+        
+        </hints3:hintedElement>
+                    
+    
+    </hints3:renderingHints3>
+        
+
+</instance:xArch>
